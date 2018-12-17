@@ -1,0 +1,3 @@
+﻿add-migration -Context CollegeStrikeContext -o Data\MOMigrations NameOfMigration
+update-database -Context CollegeStrikeContext
+Update-Database -Context ApplicationDbContext
